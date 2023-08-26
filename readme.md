@@ -1,3 +1,2 @@
-ChatGPT的创新，现象与规律。
 
-数据准备。
+The phenomenon, innovation, and pattern of ChatGPT competition.

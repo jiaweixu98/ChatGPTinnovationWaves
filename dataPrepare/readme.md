@@ -1,4 +1,4 @@
-从2023年7月30日的arxiv数据 (2.3M arxiv papers，数据来源 <https://www.kaggle.com/datasets/Cornell-University/arxiv>) 中，抽取ChatGPT，GPT和LLMs相关的文献记录，借此研究ChatGPT引发的发文特征。
+从2023年8月19日的arxiv数据 (2.3M arxiv papers，数据来源 <https://www.kaggle.com/datasets/Cornell-University/arxiv>) 中，抽取ChatGPT，GPT和LLMs相关的文献记录，借此研究ChatGPT引发的发文特征。
 
 kaggle data doadload: https://github.com/Kaggle/kaggle-api#:~:text=Examples%3A-,kaggle%20datasets%20download%20zillow/zecon,-kaggle%20datasets%20download
  

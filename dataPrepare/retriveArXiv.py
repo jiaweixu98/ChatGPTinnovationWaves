@@ -1,4 +1,4 @@
-# nohup python3 -u allofUsInAbstract.py > allofUsInAbstract.log 2>&1 &
+# nohup python3 -u retriveArXiv.py > retriveArXiv20231007.log 2>&1 &
 
 import json
 from tqdm import tqdm
@@ -37,7 +37,7 @@ ChatGPTyearCounter = Counter()
 ChatGPTlatesTyearCounter = Counter()
 ChatGPTallActivitiesCounter = Counter()
 
-with open(readfile+'arxiv_metadata_20230730.json') as rf:
+with open(readfile+'arxiv-metadata-20231007.json') as rf:
   for line in tqdm(rf):
     j = json.loads(line)
     if 'chatgpt' in j['title'].lower() or 'chatgpt' in j['abstract'].lower():
@@ -66,7 +66,7 @@ for i, txt in enumerate(frequency3):
     ax.annotate(txt, (yearMonth3[i],frequency3[i]+10),fontsize = 12)
 ax.set_xlabel('year-month', fontsize = 15)
 ax.set_ylabel('#arXiv publications', fontsize = 15)
-ax.set_title('Figure 1. #arXiv publications contain "ChatGPT" in Title or Abstract (monthly, as of July 2023)\n',fontsize=15)
+ax.set_title('Figure 1. #arXiv publications contain "ChatGPT" in Title or Abstract (monthly, as of Sept. 2023)\n',fontsize=15)
 plt.text(.05,1.2,'total # of publications: %d'%len(chatGPTset),
 horizontalalignment='center',verticalalignment='center',
 transform=ax.transAxes,fontsize=15)
@@ -87,10 +87,10 @@ GPTset = set()
 GPTyearCounter = Counter()
 GPTlatesTyearCounter = Counter()
 GPTallActivitiesCounter = Counter()
-with open(readfile+'arxiv_metadata_20230730.json') as rf:
+with open(readfile+'arxiv-metadata-20231007.json') as rf:
   for line in tqdm(rf):
     j = json.loads(line)
-    # 替换掉\n
+    # replace \n
     alllowerCase = j['title'].lower().replace('\n ','') + j['abstract'].lower().replace('\n',' ')
     if ('generative pre-training' in alllowerCase)  or ('generative pre-trained' in alllowerCase) or (('gpt' in alllowerCase) and ('chatgpt' in alllowerCase or 'openai' in alllowerCase or 'transformer' in alllowerCase  or 'gpt-' in alllowerCase or  'language model' in alllowerCase or 'llm' in alllowerCase or 'nlp' in alllowerCase or 'computer' in alllowerCase or 'generative' in alllowerCase)):
         if date_parser.parse(j['versions'][0]['created']).year < 2018:
@@ -136,9 +136,9 @@ plt.savefig(readfile+'vis/figure2_gpt.png', bbox_inches='tight')
 
 # LLMs----------------------------------------------------------------------------------------------------------------------------------------------
 
-# query: LLMs （在GPT set上扩充即可）
+# query: LLMs （Just expand on the GPT set）
 LLMset = set()
-with open(readfile+'arxiv_metadata_20230730.json') as rf:
+with open(readfile+'arxiv-metadata-20231007.json') as rf:
   for line in tqdm(rf):
     j = json.loads(line)
     normalCase = j['title'].replace('\n ','') + ' ' + j['abstract'].replace('\n',' ')
@@ -211,12 +211,12 @@ GalaticaSet = set()
 PythiaSet = set()
 vicunaSet = set()
 
-with open(readfile+'arxiv_metadata_20230730.json') as rf:
+with open(readfile+'arxiv-metadata-20231007.json') as rf:
   for line in tqdm(rf):
     j = json.loads(line)
     normalCase = j['title'].replace('\n ','') + ' ' + j['abstract'].replace('\n',' ')
     alllowerCase = normalCase.lower()
-    if 'OpenAI' in normalCase:
+    if 'OpenAI' in normalCase and 'OpenAI Gym' not in normalCase:
        openaiSet.add(j['id'])
     if 'GShard' in normalCase:
        gshardSet.add(j['id'])
@@ -230,7 +230,7 @@ with open(readfile+'arxiv_metadata_20230730.json') as rf:
        alphacodeSet.add(j['id'])
     if 'CodeGen' in normalCase:
        codeGenSet.add(j['id'])
-    if 'LLaMA' in normalCase:
+    if 'LLaMA' in normalCase or ('llama' in alllowerCase and 'language model' in alllowerCase):
        llamaSet.add(j['id'])
     if 'YaLM' in normalCase:
        yalmSet.add(j['id'])
@@ -382,8 +382,8 @@ print(len(GPTset | LLMset  | lowercaseset | normalCaseset | CombineSet))
 allset = GPTset | LLMset  | lowercaseset | normalCaseset | CombineSet
 
 
-with open(readfile+'TemporalResults/arxiv-ChatGPT-20230730.json', 'w') as f:
-    with open(readfile+'arxiv_metadata_20230730.json') as rf:
+with open(readfile+'TemporalResults/arxiv-ChatGPT-20231007.json', 'w') as f:
+    with open(readfile+'arxiv-metadata-20231007.json') as rf:
        for line in tqdm(rf):
          j = json.loads(line)
          if j['id'] in chatGPTset:
@@ -391,8 +391,8 @@ with open(readfile+'TemporalResults/arxiv-ChatGPT-20230730.json', 'w') as f:
             f.write('\n')
 print('ChatGPT end')
 
-with open(readfile+'TemporalResults/arxiv-GPT-20230730.json', 'w') as f:
-    with open(readfile+'arxiv_metadata_20230730.json') as rf:
+with open(readfile+'TemporalResults/arxiv-GPT-20231007.json', 'w') as f:
+    with open(readfile+'arxiv-metadata-20231007.json') as rf:
        for line in tqdm(rf):
          j = json.loads(line)
          if j['id'] in GPTset:
@@ -401,8 +401,8 @@ with open(readfile+'TemporalResults/arxiv-GPT-20230730.json', 'w') as f:
 print('GPT end')
 
 from dateutil import parser as date_parser
-with open(readfile+'TemporalResults/arxiv-LLMs-20230730.json', 'w') as f:
-    with open(readfile+'arxiv_metadata_20230730.json') as rf:
+with open(readfile+'TemporalResults/arxiv-LLMs-20231007.json', 'w') as f:
+    with open(readfile+'arxiv-metadata-20231007.json') as rf:
        for line in tqdm(rf):
          j = json.loads(line)
          if j['id'] in allset and date_parser.parse(j['versions'][0]['created']).year > 2014:
@@ -415,7 +415,7 @@ print('LLMs end')
 import pandas as pd
 from dateutil import parser as date_parser
 import pickle as pk
-llm = pd.read_json(readfile+'TemporalResults/arxiv-LLMs-20230730.json', lines=True, dtype=object)
+llm = pd.read_json(readfile+'TemporalResults/arxiv-LLMs-20231007.json', lines=True, dtype=object)
 
 
 def ChatGPTrelated(row):
@@ -437,4 +437,4 @@ llm['ContainGPT'] = llm.apply(GPTrelated, axis=1)
 llm['publish_date_v1'] = llm.apply(pubTime, axis=1)
 llm['title'] = llm['title'].str.replace('\n ','')
 llm['abstract'] = llm['abstract'].str.replace('\n',' ')
-llm.to_csv(readfile+'LLMs0730.csv', index=False)
+llm.to_csv(readfile+'LLMs1007.csv', index=False)

@@ -1,0 +1,1064 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-01-05">
+    <creator>NetworkX 2.8.4</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="size" type="double" />
+    </attributes>
+    <nodes>
+      <node id="cs.CR" label="cs.CR">
+        <attvalues>
+          <attvalue for="0" value="0.008403802720731131" />
+        </attvalues>
+      </node>
+      <node id="cs.DC" label="cs.DC">
+        <attvalues>
+          <attvalue for="0" value="0.004315886134067953" />
+        </attvalues>
+      </node>
+      <node id="q-fin.TR" label="q-fin.TR">
+        <attvalues>
+          <attvalue for="0" value="0.005797101449275362" />
+        </attvalues>
+      </node>
+      <node id="hep-lat" label="hep-lat">
+        <attvalues>
+          <attvalue for="0" value="0.00020238818053025704" />
+        </attvalues>
+      </node>
+      <node id="cs.SD" label="cs.SD">
+        <attvalues>
+          <attvalue for="0" value="0.007633587786259542" />
+        </attvalues>
+      </node>
+      <node id="physics.chem-ph" label="physics.chem-ph">
+        <attvalues>
+          <attvalue for="0" value="0.0010156867170748223" />
+        </attvalues>
+      </node>
+      <node id="math.IT" label="math.IT">
+        <attvalues>
+          <attvalue for="0" value="0.0005338711590936054" />
+        </attvalues>
+      </node>
+      <node id="nlin.PS" label="nlin.PS">
+        <attvalues>
+          <attvalue for="0" value="0.00038022813688212925" />
+        </attvalues>
+      </node>
+      <node id="cs.SI" label="cs.SI">
+        <attvalues>
+          <attvalue for="0" value="0.004316546762589928" />
+        </attvalues>
+      </node>
+      <node id="math.NT" label="math.NT">
+        <attvalues>
+          <attvalue for="0" value="7.147451933385748e-05" />
+        </attvalues>
+      </node>
+      <node id="eess.SP" label="eess.SP">
+        <attvalues>
+          <attvalue for="0" value="0.0007517030772844726" />
+        </attvalues>
+      </node>
+      <node id="cond-mat.stat-mech" label="cond-mat.stat-mech">
+        <attvalues>
+          <attvalue for="0" value="0.00011852554225435582" />
+        </attvalues>
+      </node>
+      <node id="physics.soc-ph" label="physics.soc-ph">
+        <attvalues>
+          <attvalue for="0" value="0.0009518629317378297" />
+        </attvalues>
+      </node>
+      <node id="physics.comp-ph" label="physics.comp-ph">
+        <attvalues>
+          <attvalue for="0" value="0.00028996713705780014" />
+        </attvalues>
+      </node>
+      <node id="cs.SY" label="cs.SY">
+        <attvalues>
+          <attvalue for="0" value="0.0007429788498687404" />
+        </attvalues>
+      </node>
+      <node id="math.LO" label="math.LO">
+        <attvalues>
+          <attvalue for="0" value="0.0004521817770743839" />
+        </attvalues>
+      </node>
+      <node id="cs.CL" label="cs.CL">
+        <attvalues>
+          <attvalue for="0" value="0.0912848158131177" />
+        </attvalues>
+      </node>
+      <node id="math.HO" label="math.HO">
+        <attvalues>
+          <attvalue for="0" value="0.0031974420463629096" />
+        </attvalues>
+      </node>
+      <node id="q-fin.PM" label="q-fin.PM">
+        <attvalues>
+          <attvalue for="0" value="0.0013440860215053765" />
+        </attvalues>
+      </node>
+      <node id="cs.IR" label="cs.IR">
+        <attvalues>
+          <attvalue for="0" value="0.023882738827388273" />
+        </attvalues>
+      </node>
+      <node id="cs.SE" label="cs.SE">
+        <attvalues>
+          <attvalue for="0" value="0.031117080814864563" />
+        </attvalues>
+      </node>
+      <node id="econ.GN" label="econ.GN">
+        <attvalues>
+          <attvalue for="0" value="0.00676714856967087" />
+        </attvalues>
+      </node>
+      <node id="stat.ME" label="stat.ME">
+        <attvalues>
+          <attvalue for="0" value="0.00014490653528474135" />
+        </attvalues>
+      </node>
+      <node id="cs.GL" label="cs.GL">
+        <attvalues>
+          <attvalue for="0" value="0.023529411764705882" />
+        </attvalues>
+      </node>
+      <node id="cs.IT" label="cs.IT">
+        <attvalues>
+          <attvalue for="0" value="0.0005338711590936054" />
+        </attvalues>
+      </node>
+      <node id="astro-ph.SR" label="astro-ph.SR">
+        <attvalues>
+          <attvalue for="0" value="4.974134500596896e-05" />
+        </attvalues>
+      </node>
+      <node id="physics.geo-ph" label="physics.geo-ph">
+        <attvalues>
+          <attvalue for="0" value="0.0006798096532970768" />
+        </attvalues>
+      </node>
+      <node id="eess.AS" label="eess.AS">
+        <attvalues>
+          <attvalue for="0" value="0.007729720340455098" />
+        </attvalues>
+      </node>
+      <node id="q-fin.CP" label="q-fin.CP">
+        <attvalues>
+          <attvalue for="0" value="0.006679389312977099" />
+        </attvalues>
+      </node>
+      <node id="cs.CV" label="cs.CV">
+        <attvalues>
+          <attvalue for="0" value="0.005559977956034535" />
+        </attvalues>
+      </node>
+      <node id="cs.NI" label="cs.NI">
+        <attvalues>
+          <attvalue for="0" value="0.0018328840970350405" />
+        </attvalues>
+      </node>
+      <node id="q-fin.ST" label="q-fin.ST">
+        <attvalues>
+          <attvalue for="0" value="0.007205764611689352" />
+        </attvalues>
+      </node>
+      <node id="hep-th" label="hep-th">
+        <attvalues>
+          <attvalue for="0" value="5.95699052838506e-05" />
+        </attvalues>
+      </node>
+      <node id="physics.optics" label="physics.optics">
+        <attvalues>
+          <attvalue for="0" value="0.00021720243266724586" />
+        </attvalues>
+      </node>
+      <node id="math.DG" label="math.DG">
+        <attvalues>
+          <attvalue for="0" value="8.721437292865864e-05" />
+        </attvalues>
+      </node>
+      <node id="physics.data-an" label="physics.data-an">
+        <attvalues>
+          <attvalue for="0" value="0.0003075030750307503" />
+        </attvalues>
+      </node>
+      <node id="astro-ph.GA" label="astro-ph.GA">
+        <attvalues>
+          <attvalue for="0" value="0.00015489467162329616" />
+        </attvalues>
+      </node>
+      <node id="cs.RO" label="cs.RO">
+        <attvalues>
+          <attvalue for="0" value="0.0070160957490713995" />
+        </attvalues>
+      </node>
+      <node id="physics.ao-ph" label="physics.ao-ph">
+        <attvalues>
+          <attvalue for="0" value="0.001504324934185784" />
+        </attvalues>
+      </node>
+      <node id="cs.DL" label="cs.DL">
+        <attvalues>
+          <attvalue for="0" value="0.010649627263045794" />
+        </attvalues>
+      </node>
+      <node id="eess.IV" label="eess.IV">
+        <attvalues>
+          <attvalue for="0" value="0.0007757149506128149" />
+        </attvalues>
+      </node>
+      <node id="q-bio.MN" label="q-bio.MN">
+        <attvalues>
+          <attvalue for="0" value="0.0021482277121374865" />
+        </attvalues>
+      </node>
+      <node id="physics.pop-ph" label="physics.pop-ph">
+        <attvalues>
+          <attvalue for="0" value="0.005714285714285714" />
+        </attvalues>
+      </node>
+      <node id="cs.CY" label="cs.CY">
+        <attvalues>
+          <attvalue for="0" value="0.027597249693887164" />
+        </attvalues>
+      </node>
+      <node id="cs.PL" label="cs.PL">
+        <attvalues>
+          <attvalue for="0" value="0.017893810501613375" />
+        </attvalues>
+      </node>
+      <node id="math.NA" label="math.NA">
+        <attvalues>
+          <attvalue for="0" value="0.00022171719971176765" />
+        </attvalues>
+      </node>
+      <node id="math.ST" label="math.ST">
+        <attvalues>
+          <attvalue for="0" value="0.000223563603845294" />
+        </attvalues>
+      </node>
+      <node id="physics.med-ph" label="physics.med-ph">
+        <attvalues>
+          <attvalue for="0" value="0.0008515469770082316" />
+        </attvalues>
+      </node>
+      <node id="q-bio.NC" label="q-bio.NC">
+        <attvalues>
+          <attvalue for="0" value="0.003586065573770492" />
+        </attvalues>
+      </node>
+      <node id="math.CT" label="math.CT">
+        <attvalues>
+          <attvalue for="0" value="0.0003198976327575176" />
+        </attvalues>
+      </node>
+      <node id="cs.AI" label="cs.AI">
+        <attvalues>
+          <attvalue for="0" value="0.041408018695683925" />
+        </attvalues>
+      </node>
+      <node id="eess.SY" label="eess.SY">
+        <attvalues>
+          <attvalue for="0" value="0.0007776856076316881" />
+        </attvalues>
+      </node>
+      <node id="astro-ph.CO" label="astro-ph.CO">
+        <attvalues>
+          <attvalue for="0" value="0.0001107235785860599" />
+        </attvalues>
+      </node>
+      <node id="math.PR" label="math.PR">
+        <attvalues>
+          <attvalue for="0" value="0.00010814902936246147" />
+        </attvalues>
+      </node>
+      <node id="econ.TH" label="econ.TH">
+        <attvalues>
+          <attvalue for="0" value="0.0010330578512396695" />
+        </attvalues>
+      </node>
+      <node id="astro-ph.IM" label="astro-ph.IM">
+        <attvalues>
+          <attvalue for="0" value="0.0005719888870730511" />
+        </attvalues>
+      </node>
+      <node id="cs.DM" label="cs.DM">
+        <attvalues>
+          <attvalue for="0" value="0.00020383204239706482" />
+        </attvalues>
+      </node>
+      <node id="cs.MA" label="cs.MA">
+        <attvalues>
+          <attvalue for="0" value="0.005062733876293198" />
+        </attvalues>
+      </node>
+      <node id="q-bio.GN" label="q-bio.GN">
+        <attvalues>
+          <attvalue for="0" value="0.011777301927194861" />
+        </attvalues>
+      </node>
+      <node id="quant-ph" label="quant-ph">
+        <attvalues>
+          <attvalue for="0" value="0.00023094203354957906" />
+        </attvalues>
+      </node>
+      <node id="math.AT" label="math.AT">
+        <attvalues>
+          <attvalue for="0" value="0.0004062563477554337" />
+        </attvalues>
+      </node>
+      <node id="math.DS" label="math.DS">
+        <attvalues>
+          <attvalue for="0" value="7.671653241273494e-05" />
+        </attvalues>
+      </node>
+      <node id="cond-mat.other" label="cond-mat.other">
+        <attvalues>
+          <attvalue for="0" value="0.0003769317753486619" />
+        </attvalues>
+      </node>
+      <node id="cs.FL" label="cs.FL">
+        <attvalues>
+          <attvalue for="0" value="0.002857142857142857" />
+        </attvalues>
+      </node>
+      <node id="stat.CO" label="stat.CO">
+        <attvalues>
+          <attvalue for="0" value="0.0005224660397074191" />
+        </attvalues>
+      </node>
+      <node id="cs.AR" label="cs.AR">
+        <attvalues>
+          <attvalue for="0" value="0.005008347245409015" />
+        </attvalues>
+      </node>
+      <node id="cs.GR" label="cs.GR">
+        <attvalues>
+          <attvalue for="0" value="0.002391073326248672" />
+        </attvalues>
+      </node>
+      <node id="cond-mat.str-el" label="cond-mat.str-el">
+        <attvalues>
+          <attvalue for="0" value="5.0989190291658166e-05" />
+        </attvalues>
+      </node>
+      <node id="cs.CE" label="cs.CE">
+        <attvalues>
+          <attvalue for="0" value="0.004330343334364367" />
+        </attvalues>
+      </node>
+      <node id="q-fin.PR" label="q-fin.PR">
+        <attvalues>
+          <attvalue for="0" value="0.003929273084479371" />
+        </attvalues>
+      </node>
+      <node id="q-bio.BM" label="q-bio.BM">
+        <attvalues>
+          <attvalue for="0" value="0.007303712720632989" />
+        </attvalues>
+      </node>
+      <node id="cond-mat.mtrl-sci" label="cond-mat.mtrl-sci">
+        <attvalues>
+          <attvalue for="0" value="0.0003544728022686259" />
+        </attvalues>
+      </node>
+      <node id="q-fin.GN" label="q-fin.GN">
+        <attvalues>
+          <attvalue for="0" value="0.0107095046854083" />
+        </attvalues>
+      </node>
+      <node id="cs.DS" label="cs.DS">
+        <attvalues>
+          <attvalue for="0" value="0.0006006006006006006" />
+        </attvalues>
+      </node>
+      <node id="stat.ML" label="stat.ML">
+        <attvalues>
+          <attvalue for="0" value="0.002496154912886715" />
+        </attvalues>
+      </node>
+      <node id="cs.DB" label="cs.DB">
+        <attvalues>
+          <attvalue for="0" value="0.012791572610985704" />
+        </attvalues>
+      </node>
+      <node id="cs.NA" label="cs.NA">
+        <attvalues>
+          <attvalue for="0" value="0.00022950255321590454" />
+        </attvalues>
+      </node>
+      <node id="cs.LG" label="cs.LG">
+        <attvalues>
+          <attvalue for="0" value="0.013223538863225547" />
+        </attvalues>
+      </node>
+      <node id="physics.app-ph" label="physics.app-ph">
+        <attvalues>
+          <attvalue for="0" value="0.00022963870177587263" />
+        </attvalues>
+      </node>
+      <node id="stat.TH" label="stat.TH">
+        <attvalues>
+          <attvalue for="0" value="0.000223563603845294" />
+        </attvalues>
+      </node>
+      <node id="cs.HC" label="cs.HC">
+        <attvalues>
+          <attvalue for="0" value="0.027903538760048047" />
+        </attvalues>
+      </node>
+      <node id="cond-mat.dis-nn" label="cond-mat.dis-nn">
+        <attvalues>
+          <attvalue for="0" value="0.0010517090271691498" />
+        </attvalues>
+      </node>
+      <node id="cs.MM" label="cs.MM">
+        <attvalues>
+          <attvalue for="0" value="0.010857763300760043" />
+        </attvalues>
+      </node>
+      <node id="cs.SC" label="cs.SC">
+        <attvalues>
+          <attvalue for="0" value="0.009287925696594427" />
+        </attvalues>
+      </node>
+      <node id="gr-qc" label="gr-qc">
+        <attvalues>
+          <attvalue for="0" value="3.5590988361746805e-05" />
+        </attvalues>
+      </node>
+      <node id="cond-mat.mes-hall" label="cond-mat.mes-hall">
+        <attvalues>
+          <attvalue for="0" value="3.848670284416734e-05" />
+        </attvalues>
+      </node>
+      <node id="nlin.AO" label="nlin.AO">
+        <attvalues>
+          <attvalue for="0" value="0.0014071294559099437" />
+        </attvalues>
+      </node>
+      <node id="stat.AP" label="stat.AP">
+        <attvalues>
+          <attvalue for="0" value="0.0007502679528403001" />
+        </attvalues>
+      </node>
+      <node id="cs.GT" label="cs.GT">
+        <attvalues>
+          <attvalue for="0" value="0.001152073732718894" />
+        </attvalues>
+      </node>
+      <node id="astro-ph.HE" label="astro-ph.HE">
+        <attvalues>
+          <attvalue for="0" value="0.00013601741022850925" />
+        </attvalues>
+      </node>
+      <node id="cs.CC" label="cs.CC">
+        <attvalues>
+          <attvalue for="0" value="0.0008058017727639" />
+        </attvalues>
+      </node>
+      <node id="q-fin.MF" label="q-fin.MF">
+        <attvalues>
+          <attvalue for="0" value="0.0007524454477050414" />
+        </attvalues>
+      </node>
+      <node id="cs.NE" label="cs.NE">
+        <attvalues>
+          <attvalue for="0" value="0.006398910823689585" />
+        </attvalues>
+      </node>
+      <node id="cs.LO" label="cs.LO">
+        <attvalues>
+          <attvalue for="0" value="0.0032278889606197547" />
+        </attvalues>
+      </node>
+      <node id="cs.ET" label="cs.ET">
+        <attvalues>
+          <attvalue for="0" value="0.0026373626373626374" />
+        </attvalues>
+      </node>
+      <node id="math.CA" label="math.CA">
+        <attvalues>
+          <attvalue for="0" value="0.00015518311607697082" />
+        </attvalues>
+      </node>
+      <node id="cond-mat.soft" label="cond-mat.soft">
+        <attvalues>
+          <attvalue for="0" value="0.0001792435920415845" />
+        </attvalues>
+      </node>
+      <node id="q-bio.QM" label="q-bio.QM">
+        <attvalues>
+          <attvalue for="0" value="0.0031263957123715946" />
+        </attvalues>
+      </node>
+      <node id="q-fin.EC" label="q-fin.EC">
+        <attvalues>
+          <attvalue for="0" value="0.00676714856967087" />
+        </attvalues>
+      </node>
+      <node id="math.OC" label="math.OC">
+        <attvalues>
+          <attvalue for="0" value="0.0004489063010120797" />
+        </attvalues>
+      </node>
+      <node id="physics.ed-ph" label="physics.ed-ph">
+        <attvalues>
+          <attvalue for="0" value="0.01010886469673406" />
+        </attvalues>
+      </node>
+      <node id="cs.PF" label="cs.PF">
+        <attvalues>
+          <attvalue for="0" value="0.0062047569803516025" />
+        </attvalues>
+      </node>
+      <node id="q-bio.OT" label="q-bio.OT">
+        <attvalues>
+          <attvalue for="0" value="0.010309278350515464" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="cs.CR" target="cs.AI" id="0" weight="0.40625" />
+      <edge source="cs.CR" target="cs.AR" id="1" weight="0.06666666666666667" />
+      <edge source="cs.CR" target="cs.CL" id="2" weight="0.41875" />
+      <edge source="cs.CR" target="cs.CV" id="3" weight="0.05625" />
+      <edge source="cs.CR" target="cs.CY" id="4" weight="0.0625" />
+      <edge source="cs.CR" target="cs.HC" id="5" weight="0.03125" />
+      <edge source="cs.CR" target="cs.IR" id="6" weight="0.01875" />
+      <edge source="cs.CR" target="cs.LG" id="7" weight="0.46875" />
+      <edge source="cs.CR" target="cs.MM" id="8" weight="0.1" />
+      <edge source="cs.CR" target="cs.NE" id="9" weight="0.02127659574468085" />
+      <edge source="cs.CR" target="cs.NI" id="10" weight="0.058823529411764705" />
+      <edge source="cs.CR" target="cs.PL" id="11" weight="0.01639344262295082" />
+      <edge source="cs.CR" target="cs.RO" id="12" weight="0.006535947712418301" />
+      <edge source="cs.CR" target="cs.SE" id="13" weight="0.06875" />
+      <edge source="cs.CR" target="cs.SI" id="14" weight="0.07692307692307693" />
+      <edge source="cs.CR" target="stat.ML" id="15" weight="0.010101010101010102" />
+      <edge source="cs.DC" target="cs.AI" id="16" weight="0.3191489361702128" />
+      <edge source="cs.DC" target="cs.AR" id="17" weight="0.06666666666666667" />
+      <edge source="cs.DC" target="cs.CE" id="18" weight="0.07142857142857142" />
+      <edge source="cs.DC" target="cs.CL" id="19" weight="0.19148936170212766" />
+      <edge source="cs.DC" target="cs.CV" id="20" weight="0.0425531914893617" />
+      <edge source="cs.DC" target="cs.DB" id="21" weight="0.06382978723404255" />
+      <edge source="cs.DC" target="cs.LG" id="22" weight="0.7659574468085106" />
+      <edge source="cs.DC" target="cs.NI" id="23" weight="0.058823529411764705" />
+      <edge source="cs.DC" target="cs.PF" id="24" weight="0.16666666666666666" />
+      <edge source="cs.DC" target="cs.PL" id="25" weight="0.02127659574468085" />
+      <edge source="cs.DC" target="cs.SE" id="26" weight="0.02127659574468085" />
+      <edge source="cs.DC" target="cs.SY" id="27" weight="0.06666666666666667" />
+      <edge source="cs.DC" target="econ.GN" id="28" weight="0.045454545454545456" />
+      <edge source="cs.DC" target="eess.SY" id="29" weight="0.06666666666666667" />
+      <edge source="cs.DC" target="q-fin.EC" id="30" weight="0.045454545454545456" />
+      <edge source="cs.DC" target="stat.ML" id="31" weight="0.0425531914893617" />
+      <edge source="q-fin.TR" target="cs.AI" id="32" weight="0.25" />
+      <edge source="q-fin.TR" target="cs.CL" id="33" weight="0.5" />
+      <edge source="q-fin.TR" target="cs.LG" id="34" weight="0.75" />
+      <edge source="q-fin.TR" target="q-fin.CP" id="35" weight="0.25" />
+      <edge source="q-fin.TR" target="q-fin.PM" id="36" weight="1.0" />
+      <edge source="q-fin.TR" target="q-fin.ST" id="37" weight="0.5" />
+      <edge source="hep-lat" target="cond-mat.dis-nn" id="38" weight="1.0" />
+      <edge source="hep-lat" target="cond-mat.str-el" id="39" weight="1.0" />
+      <edge source="cs.SD" target="cs.AI" id="40" weight="0.20512820512820512" />
+      <edge source="cs.SD" target="cs.CL" id="41" weight="0.6923076923076923" />
+      <edge source="cs.SD" target="cs.CV" id="42" weight="0.05128205128205128" />
+      <edge source="cs.SD" target="cs.GR" id="43" weight="0.1111111111111111" />
+      <edge source="cs.SD" target="cs.HC" id="44" weight="0.01282051282051282" />
+      <edge source="cs.SD" target="cs.LG" id="45" weight="0.32051282051282054" />
+      <edge source="cs.SD" target="cs.MM" id="46" weight="0.175" />
+      <edge source="cs.SD" target="cs.NE" id="47" weight="0.02127659574468085" />
+      <edge source="cs.SD" target="cs.SE" id="48" weight="0.01282051282051282" />
+      <edge source="cs.SD" target="eess.AS" id="49" weight="1.0" />
+      <edge source="cs.SD" target="stat.ML" id="50" weight="0.01282051282051282" />
+      <edge source="physics.chem-ph" target="cond-mat.mtrl-sci" id="51" weight="0.2222222222222222" />
+      <edge source="physics.chem-ph" target="cs.AI" id="52" weight="0.1111111111111111" />
+      <edge source="physics.chem-ph" target="cs.CE" id="53" weight="0.2222222222222222" />
+      <edge source="physics.chem-ph" target="cs.CL" id="54" weight="0.3333333333333333" />
+      <edge source="physics.chem-ph" target="cs.IR" id="55" weight="0.1111111111111111" />
+      <edge source="physics.chem-ph" target="cs.LG" id="56" weight="0.4444444444444444" />
+      <edge source="physics.chem-ph" target="q-bio.BM" id="57" weight="0.1111111111111111" />
+      <edge source="physics.chem-ph" target="q-bio.QM" id="58" weight="0.1111111111111111" />
+      <edge source="physics.chem-ph" target="stat.ML" id="59" weight="0.1111111111111111" />
+      <edge source="math.IT" target="cs.AI" id="60" weight="0.3333333333333333" />
+      <edge source="math.IT" target="cs.CL" id="61" weight="0.4444444444444444" />
+      <edge source="math.IT" target="cs.IR" id="62" weight="0.1111111111111111" />
+      <edge source="math.IT" target="cs.IT" id="63" weight="1.0" />
+      <edge source="math.IT" target="cs.LG" id="64" weight="0.5555555555555556" />
+      <edge source="math.IT" target="cs.NI" id="65" weight="0.1111111111111111" />
+      <edge source="math.IT" target="eess.SP" id="66" weight="0.3333333333333333" />
+      <edge source="math.IT" target="math.PR" id="67" weight="0.5" />
+      <edge source="math.IT" target="math.ST" id="68" weight="0.5" />
+      <edge source="math.IT" target="stat.ML" id="69" weight="0.1111111111111111" />
+      <edge source="math.IT" target="stat.TH" id="70" weight="0.5" />
+      <edge source="nlin.PS" target="cs.CL" id="71" weight="1.0" />
+      <edge source="cs.SI" target="cs.AI" id="72" weight="0.3333333333333333" />
+      <edge source="cs.SI" target="cs.CL" id="73" weight="0.46153846153846156" />
+      <edge source="cs.SI" target="cs.CY" id="74" weight="0.38461538461538464" />
+      <edge source="cs.SI" target="cs.DL" id="75" weight="0.05" />
+      <edge source="cs.SI" target="cs.HC" id="76" weight="0.1282051282051282" />
+      <edge source="cs.SI" target="cs.IR" id="77" weight="0.05128205128205128" />
+      <edge source="cs.SI" target="cs.LG" id="78" weight="0.358974358974359" />
+      <edge source="cs.SI" target="cs.NE" id="79" weight="0.02564102564102564" />
+      <edge source="cs.SI" target="physics.soc-ph" id="80" weight="0.14285714285714285" />
+      <edge source="cs.SI" target="stat.ML" id="81" weight="0.02564102564102564" />
+      <edge source="math.NT" target="cs.LG" id="82" weight="1.0" />
+      <edge source="eess.SP" target="cs.AI" id="83" weight="0.25" />
+      <edge source="eess.SP" target="cs.CL" id="84" weight="0.125" />
+      <edge source="eess.SP" target="cs.CV" id="85" weight="0.0625" />
+      <edge source="eess.SP" target="cs.IT" id="86" weight="0.3333333333333333" />
+      <edge source="eess.SP" target="cs.LG" id="87" weight="0.375" />
+      <edge source="eess.SP" target="cs.NI" id="88" weight="0.0625" />
+      <edge source="eess.SP" target="eess.AS" id="89" weight="0.0625" />
+      <edge source="eess.SP" target="eess.IV" id="90" weight="0.06666666666666667" />
+      <edge source="eess.SP" target="math.OC" id="91" weight="0.09090909090909091" />
+      <edge source="eess.SP" target="stat.ML" id="92" weight="0.0625" />
+      <edge source="cond-mat.stat-mech" target="cs.AI" id="93" weight="0.5" />
+      <edge source="cond-mat.stat-mech" target="cs.CL" id="94" weight="0.5" />
+      <edge source="cond-mat.stat-mech" target="cs.LG" id="95" weight="0.5" />
+      <edge source="cond-mat.stat-mech" target="q-bio.NC" id="96" weight="0.5" />
+      <edge source="cond-mat.stat-mech" target="quant-ph" id="97" weight="0.5" />
+      <edge source="cond-mat.stat-mech" target="stat.ML" id="98" weight="0.5" />
+      <edge source="physics.soc-ph" target="cs.AI" id="99" weight="0.42857142857142855" />
+      <edge source="physics.soc-ph" target="cs.CL" id="100" weight="0.2857142857142857" />
+      <edge source="physics.soc-ph" target="cs.CY" id="101" weight="0.14285714285714285" />
+      <edge source="physics.soc-ph" target="cs.LG" id="102" weight="0.2857142857142857" />
+      <edge source="physics.soc-ph" target="cs.MA" id="103" weight="0.2857142857142857" />
+      <edge source="physics.soc-ph" target="econ.GN" id="104" weight="0.14285714285714285" />
+      <edge source="physics.soc-ph" target="nlin.AO" id="105" weight="0.6666666666666666" />
+      <edge source="physics.soc-ph" target="q-fin.EC" id="106" weight="0.14285714285714285" />
+      <edge source="physics.comp-ph" target="cond-mat.dis-nn" id="107" weight="0.3333333333333333" />
+      <edge source="physics.comp-ph" target="cs.CL" id="108" weight="0.3333333333333333" />
+      <edge source="physics.comp-ph" target="cs.LG" id="109" weight="0.3333333333333333" />
+      <edge source="physics.comp-ph" target="hep-th" id="110" weight="0.5" />
+      <edge source="physics.comp-ph" target="math.HO" id="111" weight="0.3333333333333333" />
+      <edge source="physics.comp-ph" target="quant-ph" id="112" weight="0.3333333333333333" />
+      <edge source="cs.SY" target="cs.AI" id="113" weight="0.5333333333333333" />
+      <edge source="cs.SY" target="cs.AR" id="114" weight="0.06666666666666667" />
+      <edge source="cs.SY" target="cs.CL" id="115" weight="0.26666666666666666" />
+      <edge source="cs.SY" target="cs.HC" id="116" weight="0.06666666666666667" />
+      <edge source="cs.SY" target="cs.LG" id="117" weight="0.8" />
+      <edge source="cs.SY" target="cs.MA" id="118" weight="0.06666666666666667" />
+      <edge source="cs.SY" target="cs.PF" id="119" weight="0.08333333333333333" />
+      <edge source="cs.SY" target="cs.RO" id="120" weight="0.3333333333333333" />
+      <edge source="cs.SY" target="cs.SE" id="121" weight="0.06666666666666667" />
+      <edge source="cs.SY" target="eess.SY" id="122" weight="1.0" />
+      <edge source="cs.SY" target="math.OC" id="123" weight="0.09090909090909091" />
+      <edge source="cs.SY" target="stat.ML" id="124" weight="0.2" />
+      <edge source="math.LO" target="cs.CL" id="125" weight="1.0" />
+      <edge source="math.LO" target="cs.LO" id="126" weight="0.5" />
+      <edge source="cs.CL" target="astro-ph.CO" id="127" weight="0.5" />
+      <edge source="cs.CL" target="astro-ph.GA" id="128" weight="0.75" />
+      <edge source="cs.CL" target="astro-ph.HE" id="129" weight="0.6666666666666666" />
+      <edge source="cs.CL" target="astro-ph.IM" id="130" weight="0.42857142857142855" />
+      <edge source="cs.CL" target="cond-mat.mtrl-sci" id="131" weight="0.36363636363636365" />
+      <edge source="cs.CL" target="cs.AI" id="132" weight="0.7041446208112875" />
+      <edge source="cs.CL" target="cs.AR" id="133" weight="0.13333333333333333" />
+      <edge source="cs.CL" target="cs.CE" id="134" weight="0.5714285714285714" />
+      <edge source="cs.CL" target="cs.CV" id="135" weight="0.42951541850220265" />
+      <edge source="cs.CL" target="cs.CY" id="136" weight="0.5426621160409556" />
+      <edge source="cs.CL" target="cs.DB" id="137" weight="0.5294117647058824" />
+      <edge source="cs.CL" target="cs.DL" id="138" weight="0.2" />
+      <edge source="cs.CL" target="cs.DM" id="139" weight="1.0" />
+      <edge source="cs.CL" target="cs.ET" id="140" weight="0.5" />
+      <edge source="cs.CL" target="cs.FL" id="141" weight="0.3333333333333333" />
+      <edge source="cs.CL" target="cs.GR" id="142" weight="0.1111111111111111" />
+      <edge source="cs.CL" target="cs.GT" id="143" weight="0.5" />
+      <edge source="cs.CL" target="cs.HC" id="144" weight="0.47019867549668876" />
+      <edge source="cs.CL" target="cs.IR" id="145" weight="0.630901287553648" />
+      <edge source="cs.CL" target="cs.IT" id="146" weight="0.4444444444444444" />
+      <edge source="cs.CL" target="cs.LG" id="147" weight="0.6561360874848117" />
+      <edge source="cs.CL" target="cs.LO" id="148" weight="0.3" />
+      <edge source="cs.CL" target="cs.MA" id="149" weight="0.21739130434782608" />
+      <edge source="cs.CL" target="cs.MM" id="150" weight="0.425" />
+      <edge source="cs.CL" target="cs.NA" id="151" weight="0.5" />
+      <edge source="cs.CL" target="cs.NE" id="152" weight="0.3404255319148936" />
+      <edge source="cs.CL" target="cs.NI" id="153" weight="0.17647058823529413" />
+      <edge source="cs.CL" target="cs.PF" id="154" weight="0.5" />
+      <edge source="cs.CL" target="cs.PL" id="155" weight="0.4098360655737705" />
+      <edge source="cs.CL" target="cs.RO" id="156" weight="0.2679738562091503" />
+      <edge source="cs.CL" target="cs.SC" id="157" weight="0.8888888888888888" />
+      <edge source="cs.CL" target="cs.SE" id="158" weight="0.2517985611510791" />
+      <edge source="cs.CL" target="econ.GN" id="159" weight="0.22727272727272727" />
+      <edge source="cs.CL" target="eess.AS" id="160" weight="0.7078651685393258" />
+      <edge source="cs.CL" target="eess.IV" id="161" weight="0.13333333333333333" />
+      <edge source="cs.CL" target="eess.SY" id="162" weight="0.26666666666666666" />
+      <edge source="cs.CL" target="hep-th" id="163" weight="0.5" />
+      <edge source="cs.CL" target="math.AT" id="164" weight="0.5" />
+      <edge source="cs.CL" target="math.HO" id="165" weight="0.5" />
+      <edge source="cs.CL" target="math.NA" id="166" weight="0.5" />
+      <edge source="cs.CL" target="math.OC" id="167" weight="0.36363636363636365" />
+      <edge source="cs.CL" target="math.PR" id="168" weight="0.5" />
+      <edge source="cs.CL" target="physics.app-ph" id="169" weight="0.6666666666666666" />
+      <edge source="cs.CL" target="physics.geo-ph" id="170" weight="0.5" />
+      <edge source="cs.CL" target="physics.med-ph" id="171" weight="1.0" />
+      <edge source="cs.CL" target="physics.pop-ph" id="172" weight="0.5" />
+      <edge source="cs.CL" target="q-bio.BM" id="173" weight="0.25" />
+      <edge source="cs.CL" target="q-bio.GN" id="174" weight="0.36363636363636365" />
+      <edge source="cs.CL" target="q-bio.MN" id="175" weight="0.5" />
+      <edge source="cs.CL" target="q-bio.NC" id="176" weight="0.5" />
+      <edge source="cs.CL" target="q-bio.OT" id="177" weight="0.25" />
+      <edge source="cs.CL" target="q-bio.QM" id="178" weight="0.21428571428571427" />
+      <edge source="cs.CL" target="q-fin.CP" id="179" weight="0.42857142857142855" />
+      <edge source="cs.CL" target="q-fin.EC" id="180" weight="0.22727272727272727" />
+      <edge source="cs.CL" target="q-fin.GN" id="181" weight="0.5" />
+      <edge source="cs.CL" target="q-fin.PR" id="182" weight="0.5" />
+      <edge source="cs.CL" target="q-fin.ST" id="183" weight="0.8888888888888888" />
+      <edge source="cs.CL" target="quant-ph" id="184" weight="0.18181818181818182" />
+      <edge source="cs.CL" target="stat.AP" id="185" weight="0.8571428571428571" />
+      <edge source="cs.CL" target="stat.CO" id="186" weight="1.0" />
+      <edge source="cs.CL" target="stat.ME" id="187" weight="0.5" />
+      <edge source="cs.CL" target="stat.ML" id="188" weight="0.41414141414141414" />
+      <edge source="math.HO" target="cs.AI" id="189" weight="0.25" />
+      <edge source="math.HO" target="hep-th" id="190" weight="0.5" />
+      <edge source="math.HO" target="math.PR" id="191" weight="0.5" />
+      <edge source="math.HO" target="physics.ed-ph" id="192" weight="0.25" />
+      <edge source="cs.IR" target="cond-mat.mtrl-sci" id="193" weight="0.09090909090909091" />
+      <edge source="cs.IR" target="cs.AI" id="194" weight="0.37339055793991416" />
+      <edge source="cs.IR" target="cs.CE" id="195" weight="0.14285714285714285" />
+      <edge source="cs.IR" target="cs.CV" id="196" weight="0.02145922746781116" />
+      <edge source="cs.IR" target="cs.CY" id="197" weight="0.02145922746781116" />
+      <edge source="cs.IR" target="cs.DB" id="198" weight="0.1568627450980392" />
+      <edge source="cs.IR" target="cs.DL" id="199" weight="0.2" />
+      <edge source="cs.IR" target="cs.HC" id="200" weight="0.03862660944206009" />
+      <edge source="cs.IR" target="cs.IT" id="201" weight="0.1111111111111111" />
+      <edge source="cs.IR" target="cs.LG" id="202" weight="0.296137339055794" />
+      <edge source="cs.IR" target="cs.LO" id="203" weight="0.05" />
+      <edge source="cs.IR" target="cs.MM" id="204" weight="0.05" />
+      <edge source="cs.IR" target="cs.NA" id="205" weight="0.25" />
+      <edge source="cs.IR" target="cs.NE" id="206" weight="0.02127659574468085" />
+      <edge source="cs.IR" target="cs.SE" id="207" weight="0.012875536480686695" />
+      <edge source="cs.IR" target="math.NA" id="208" weight="0.25" />
+      <edge source="cs.IR" target="physics.app-ph" id="209" weight="0.3333333333333333" />
+      <edge source="cs.IR" target="q-bio.GN" id="210" weight="0.09090909090909091" />
+      <edge source="cs.IR" target="q-bio.QM" id="211" weight="0.07142857142857142" />
+      <edge source="cs.IR" target="stat.ML" id="212" weight="0.010101010101010102" />
+      <edge source="cs.SE" target="cs.AI" id="213" weight="0.37410071942446044" />
+      <edge source="cs.SE" target="cs.AR" id="214" weight="0.06666666666666667" />
+      <edge source="cs.SE" target="cs.CY" id="215" weight="0.02877697841726619" />
+      <edge source="cs.SE" target="cs.DB" id="216" weight="0.0196078431372549" />
+      <edge source="cs.SE" target="cs.DL" id="217" weight="0.05" />
+      <edge source="cs.SE" target="cs.FL" id="218" weight="0.16666666666666666" />
+      <edge source="cs.SE" target="cs.HC" id="219" weight="0.046762589928057555" />
+      <edge source="cs.SE" target="cs.LG" id="220" weight="0.2949640287769784" />
+      <edge source="cs.SE" target="cs.LO" id="221" weight="0.05" />
+      <edge source="cs.SE" target="cs.MA" id="222" weight="0.08695652173913043" />
+      <edge source="cs.SE" target="cs.NA" id="223" weight="0.25" />
+      <edge source="cs.SE" target="cs.NE" id="224" weight="0.06382978723404255" />
+      <edge source="cs.SE" target="cs.PF" id="225" weight="0.08333333333333333" />
+      <edge source="cs.SE" target="cs.PL" id="226" weight="0.4918032786885246" />
+      <edge source="cs.SE" target="cs.RO" id="227" weight="0.006535947712418301" />
+      <edge source="cs.SE" target="eess.AS" id="228" weight="0.011235955056179775" />
+      <edge source="cs.SE" target="eess.SY" id="229" weight="0.06666666666666667" />
+      <edge source="cs.SE" target="math.NA" id="230" weight="0.25" />
+      <edge source="cs.SE" target="stat.ML" id="231" weight="0.010101010101010102" />
+      <edge source="econ.GN" target="cs.AI" id="232" weight="0.5" />
+      <edge source="econ.GN" target="cs.CE" id="233" weight="0.14285714285714285" />
+      <edge source="econ.GN" target="cs.CV" id="234" weight="0.13636363636363635" />
+      <edge source="econ.GN" target="cs.CY" id="235" weight="0.22727272727272727" />
+      <edge source="econ.GN" target="cs.GT" id="236" weight="0.16666666666666666" />
+      <edge source="econ.GN" target="cs.HC" id="237" weight="0.09090909090909091" />
+      <edge source="econ.GN" target="cs.LG" id="238" weight="0.045454545454545456" />
+      <edge source="econ.GN" target="cs.MA" id="239" weight="0.09090909090909091" />
+      <edge source="econ.GN" target="nlin.AO" id="240" weight="0.3333333333333333" />
+      <edge source="econ.GN" target="q-fin.EC" id="241" weight="1.0" />
+      <edge source="econ.GN" target="q-fin.GN" id="242" weight="0.25" />
+      <edge source="stat.ME" target="cs.AI" id="243" weight="0.5" />
+      <edge source="stat.ME" target="cs.LG" id="244" weight="0.5" />
+      <edge source="cs.GL" target="cs.AI" id="245" weight="0.5" />
+      <edge source="cs.IT" target="cs.AI" id="246" weight="0.3333333333333333" />
+      <edge source="cs.IT" target="cs.LG" id="247" weight="0.5555555555555556" />
+      <edge source="cs.IT" target="cs.NI" id="248" weight="0.1111111111111111" />
+      <edge source="cs.IT" target="math.PR" id="249" weight="0.5" />
+      <edge source="cs.IT" target="math.ST" id="250" weight="0.5" />
+      <edge source="cs.IT" target="stat.ML" id="251" weight="0.1111111111111111" />
+      <edge source="cs.IT" target="stat.TH" id="252" weight="0.5" />
+      <edge source="astro-ph.SR" target="astro-ph.GA" id="253" weight="1.0" />
+      <edge source="astro-ph.SR" target="astro-ph.IM" id="254" weight="1.0" />
+      <edge source="physics.geo-ph" target="cs.LG" id="255" weight="0.5" />
+      <edge source="eess.AS" target="cs.AI" id="256" weight="0.23595505617977527" />
+      <edge source="eess.AS" target="cs.CV" id="257" weight="0.0449438202247191" />
+      <edge source="eess.AS" target="cs.GR" id="258" weight="0.1111111111111111" />
+      <edge source="eess.AS" target="cs.HC" id="259" weight="0.011235955056179775" />
+      <edge source="eess.AS" target="cs.LG" id="260" weight="0.33707865168539325" />
+      <edge source="eess.AS" target="cs.MM" id="261" weight="0.175" />
+      <edge source="eess.AS" target="cs.NE" id="262" weight="0.02127659574468085" />
+      <edge source="eess.AS" target="stat.ML" id="263" weight="0.011235955056179775" />
+      <edge source="q-fin.CP" target="cs.AI" id="264" weight="0.5714285714285714" />
+      <edge source="q-fin.CP" target="cs.DB" id="265" weight="0.14285714285714285" />
+      <edge source="q-fin.CP" target="cs.LG" id="266" weight="0.7142857142857143" />
+      <edge source="q-fin.CP" target="math.CA" id="267" weight="1.0" />
+      <edge source="q-fin.CP" target="math.DS" id="268" weight="1.0" />
+      <edge source="q-fin.CP" target="q-bio.QM" id="269" weight="0.14285714285714285" />
+      <edge source="q-fin.CP" target="q-fin.MF" id="270" weight="1.0" />
+      <edge source="q-fin.CP" target="q-fin.ST" id="271" weight="0.2857142857142857" />
+      <edge source="cs.CV" target="cs.AI" id="272" weight="0.394273127753304" />
+      <edge source="cs.CV" target="cs.AR" id="273" weight="0.06666666666666667" />
+      <edge source="cs.CV" target="cs.CE" id="274" weight="0.14285714285714285" />
+      <edge source="cs.CV" target="cs.CY" id="275" weight="0.017064846416382253" />
+      <edge source="cs.CV" target="cs.DB" id="276" weight="0.0196078431372549" />
+      <edge source="cs.CV" target="cs.GR" id="277" weight="0.6666666666666666" />
+      <edge source="cs.CV" target="cs.HC" id="278" weight="0.039735099337748346" />
+      <edge source="cs.CV" target="cs.LG" id="279" weight="0.32819383259911894" />
+      <edge source="cs.CV" target="cs.LO" id="280" weight="0.05" />
+      <edge source="cs.CV" target="cs.MA" id="281" weight="0.043478260869565216" />
+      <edge source="cs.CV" target="cs.MM" id="282" weight="0.525" />
+      <edge source="cs.CV" target="cs.NE" id="283" weight="0.06382978723404255" />
+      <edge source="cs.CV" target="cs.RO" id="284" weight="0.1895424836601307" />
+      <edge source="cs.CV" target="eess.IV" id="285" weight="0.8666666666666667" />
+      <edge source="cs.CV" target="math.OC" id="286" weight="0.09090909090909091" />
+      <edge source="cs.CV" target="physics.ao-ph" id="287" weight="0.25" />
+      <edge source="cs.CV" target="q-bio.NC" id="288" weight="0.07142857142857142" />
+      <edge source="cs.CV" target="q-fin.EC" id="289" weight="0.13636363636363635" />
+      <edge source="cs.CV" target="stat.ML" id="290" weight="0.04040404040404041" />
+      <edge source="cs.NI" target="cs.AI" id="291" weight="0.6470588235294118" />
+      <edge source="cs.NI" target="cs.HC" id="292" weight="0.11764705882352941" />
+      <edge source="cs.NI" target="cs.LG" id="293" weight="0.35294117647058826" />
+      <edge source="cs.NI" target="cs.NE" id="294" weight="0.058823529411764705" />
+      <edge source="cs.NI" target="cs.PL" id="295" weight="0.058823529411764705" />
+      <edge source="q-fin.ST" target="cs.AI" id="296" weight="0.3333333333333333" />
+      <edge source="q-fin.ST" target="cs.CY" id="297" weight="0.1111111111111111" />
+      <edge source="q-fin.ST" target="cs.LG" id="298" weight="0.6666666666666666" />
+      <edge source="hep-th" target="cs.LG" id="299" weight="0.5" />
+      <edge source="hep-th" target="stat.ML" id="300" weight="0.5" />
+      <edge source="physics.optics" target="cs.AI" id="301" weight="0.25" />
+      <edge source="physics.optics" target="cs.AR" id="302" weight="0.25" />
+      <edge source="physics.optics" target="cs.ET" id="303" weight="0.5" />
+      <edge source="physics.optics" target="cs.LG" id="304" weight="0.5" />
+      <edge source="physics.optics" target="physics.app-ph" id="305" weight="0.3333333333333333" />
+      <edge source="math.DG" target="cs.AI" id="306" weight="1.0" />
+      <edge source="math.DG" target="cs.LG" id="307" weight="1.0" />
+      <edge source="physics.data-an" target="astro-ph.CO" id="308" weight="1.0" />
+      <edge source="physics.data-an" target="astro-ph.IM" id="309" weight="1.0" />
+      <edge source="astro-ph.GA" target="astro-ph.CO" id="310" weight="0.5" />
+      <edge source="astro-ph.GA" target="astro-ph.HE" id="311" weight="0.3333333333333333" />
+      <edge source="astro-ph.GA" target="astro-ph.IM" id="312" weight="1.0" />
+      <edge source="astro-ph.GA" target="cs.AI" id="313" weight="0.25" />
+      <edge source="astro-ph.GA" target="cs.LG" id="314" weight="0.25" />
+      <edge source="cs.RO" target="cs.AI" id="315" weight="0.5882352941176471" />
+      <edge source="cs.RO" target="cs.CY" id="316" weight="0.006535947712418301" />
+      <edge source="cs.RO" target="cs.FL" id="317" weight="0.16666666666666666" />
+      <edge source="cs.RO" target="cs.HC" id="318" weight="0.06535947712418301" />
+      <edge source="cs.RO" target="cs.LG" id="319" weight="0.3660130718954248" />
+      <edge source="cs.RO" target="cs.NE" id="320" weight="0.0425531914893617" />
+      <edge source="cs.RO" target="eess.IV" id="321" weight="0.06666666666666667" />
+      <edge source="cs.RO" target="eess.SY" id="322" weight="0.3333333333333333" />
+      <edge source="cs.RO" target="q-bio.NC" id="323" weight="0.07142857142857142" />
+      <edge source="cs.RO" target="stat.AP" id="324" weight="0.14285714285714285" />
+      <edge source="cs.RO" target="stat.ML" id="325" weight="0.06060606060606061" />
+      <edge source="physics.ao-ph" target="cs.AI" id="326" weight="0.25" />
+      <edge source="physics.ao-ph" target="cs.LG" id="327" weight="0.75" />
+      <edge source="physics.ao-ph" target="stat.ML" id="328" weight="0.25" />
+      <edge source="cs.DL" target="cs.AI" id="329" weight="0.4" />
+      <edge source="cs.DL" target="cs.CY" id="330" weight="0.05" />
+      <edge source="cs.DL" target="cs.LG" id="331" weight="0.15" />
+      <edge source="eess.IV" target="cs.AI" id="332" weight="0.2" />
+      <edge source="eess.IV" target="cs.LG" id="333" weight="0.3333333333333333" />
+      <edge source="q-bio.MN" target="cs.AI" id="334" weight="1.0" />
+      <edge source="q-bio.MN" target="cs.LG" id="335" weight="0.5" />
+      <edge source="q-bio.MN" target="q-bio.BM" id="336" weight="0.5" />
+      <edge source="q-bio.MN" target="q-bio.GN" id="337" weight="0.5" />
+      <edge source="physics.pop-ph" target="astro-ph.HE" id="338" weight="0.6666666666666666" />
+      <edge source="physics.pop-ph" target="astro-ph.IM" id="339" weight="0.5" />
+      <edge source="physics.pop-ph" target="cs.AI" id="340" weight="0.25" />
+      <edge source="physics.pop-ph" target="gr-qc" id="341" weight="1.0" />
+      <edge source="cs.CY" target="cs.AI" id="342" weight="0.5665529010238908" />
+      <edge source="cs.CY" target="cs.ET" id="343" weight="0.16666666666666666" />
+      <edge source="cs.CY" target="cs.GR" id="344" weight="0.1111111111111111" />
+      <edge source="cs.CY" target="cs.GT" id="345" weight="0.3333333333333333" />
+      <edge source="cs.CY" target="cs.HC" id="346" weight="0.15358361774744028" />
+      <edge source="cs.CY" target="cs.LG" id="347" weight="0.25597269624573377" />
+      <edge source="cs.CY" target="cs.LO" id="348" weight="0.1" />
+      <edge source="cs.CY" target="cs.MM" id="349" weight="0.05" />
+      <edge source="cs.CY" target="cs.NE" id="350" weight="0.02127659574468085" />
+      <edge source="cs.CY" target="cs.PL" id="351" weight="0.01639344262295082" />
+      <edge source="cs.CY" target="econ.TH" id="352" weight="0.5" />
+      <edge source="cs.CY" target="q-bio.OT" id="353" weight="0.25" />
+      <edge source="cs.CY" target="q-fin.EC" id="354" weight="0.22727272727272727" />
+      <edge source="cs.CY" target="stat.AP" id="355" weight="0.2857142857142857" />
+      <edge source="cs.CY" target="stat.ML" id="356" weight="0.04040404040404041" />
+      <edge source="cs.PL" target="cs.AI" id="357" weight="0.5573770491803278" />
+      <edge source="cs.PL" target="cs.AR" id="358" weight="0.13333333333333333" />
+      <edge source="cs.PL" target="cs.ET" id="359" weight="0.16666666666666666" />
+      <edge source="cs.PL" target="cs.HC" id="360" weight="0.04918032786885246" />
+      <edge source="cs.PL" target="cs.LG" id="361" weight="0.5081967213114754" />
+      <edge source="cs.PL" target="cs.NE" id="362" weight="0.02127659574468085" />
+      <edge source="cs.PL" target="stat.CO" id="363" weight="0.5" />
+      <edge source="math.NA" target="cs.LG" id="364" weight="0.75" />
+      <edge source="math.NA" target="cs.NA" id="365" weight="1.0" />
+      <edge source="math.NA" target="cs.NE" id="366" weight="0.25" />
+      <edge source="math.ST" target="cs.LG" id="367" weight="0.5" />
+      <edge source="math.ST" target="econ.TH" id="368" weight="0.5" />
+      <edge source="math.ST" target="stat.TH" id="369" weight="1.0" />
+      <edge source="physics.med-ph" target="cs.AI" id="370" weight="0.6666666666666666" />
+      <edge source="q-bio.NC" target="cs.AI" id="371" weight="0.5" />
+      <edge source="q-bio.NC" target="cs.HC" id="372" weight="0.14285714285714285" />
+      <edge source="q-bio.NC" target="cs.LG" id="373" weight="0.5714285714285714" />
+      <edge source="q-bio.NC" target="math.AT" id="374" weight="0.5" />
+      <edge source="q-bio.NC" target="stat.ML" id="375" weight="0.21428571428571427" />
+      <edge source="math.CT" target="quant-ph" id="376" weight="1.0" />
+      <edge source="cs.AI" target="astro-ph.IM" id="377" weight="0.14285714285714285" />
+      <edge source="cs.AI" target="cond-mat.mtrl-sci" id="378" weight="0.18181818181818182" />
+      <edge source="cs.AI" target="cs.AR" id="379" weight="0.3333333333333333" />
+      <edge source="cs.AI" target="cs.CE" id="380" weight="0.7142857142857143" />
+      <edge source="cs.AI" target="cs.DB" id="381" weight="0.5098039215686274" />
+      <edge source="cs.AI" target="cs.DM" id="382" weight="1.0" />
+      <edge source="cs.AI" target="cs.ET" id="383" weight="0.6666666666666666" />
+      <edge source="cs.AI" target="cs.FL" id="384" weight="0.5" />
+      <edge source="cs.AI" target="cs.GR" id="385" weight="0.2222222222222222" />
+      <edge source="cs.AI" target="cs.GT" id="386" weight="0.8333333333333334" />
+      <edge source="cs.AI" target="cs.HC" id="387" weight="0.5662251655629139" />
+      <edge source="cs.AI" target="cs.LG" id="388" weight="0.5036452004860267" />
+      <edge source="cs.AI" target="cs.LO" id="389" weight="0.7" />
+      <edge source="cs.AI" target="cs.MA" id="390" weight="0.6956521739130435" />
+      <edge source="cs.AI" target="cs.MM" id="391" weight="0.55" />
+      <edge source="cs.AI" target="cs.NE" id="392" weight="0.6595744680851063" />
+      <edge source="cs.AI" target="cs.PF" id="393" weight="0.6666666666666666" />
+      <edge source="cs.AI" target="cs.SC" id="394" weight="0.8888888888888888" />
+      <edge source="cs.AI" target="econ.TH" id="395" weight="0.5" />
+      <edge source="cs.AI" target="eess.SY" id="396" weight="0.5333333333333333" />
+      <edge source="cs.AI" target="math.OC" id="397" weight="0.45454545454545453" />
+      <edge source="cs.AI" target="nlin.AO" id="398" weight="0.6666666666666666" />
+      <edge source="cs.AI" target="physics.app-ph" id="399" weight="0.3333333333333333" />
+      <edge source="cs.AI" target="physics.ed-ph" id="400" weight="0.3076923076923077" />
+      <edge source="cs.AI" target="q-bio.BM" id="401" weight="0.16666666666666666" />
+      <edge source="cs.AI" target="q-bio.GN" id="402" weight="0.5454545454545454" />
+      <edge source="cs.AI" target="q-bio.OT" id="403" weight="0.25" />
+      <edge source="cs.AI" target="q-bio.QM" id="404" weight="0.5" />
+      <edge source="cs.AI" target="q-fin.EC" id="405" weight="0.5" />
+      <edge source="cs.AI" target="q-fin.GN" id="406" weight="0.5" />
+      <edge source="cs.AI" target="quant-ph" id="407" weight="0.2727272727272727" />
+      <edge source="cs.AI" target="stat.AP" id="408" weight="0.2857142857142857" />
+      <edge source="cs.AI" target="stat.CO" id="409" weight="0.5" />
+      <edge source="cs.AI" target="stat.ML" id="410" weight="0.32323232323232326" />
+      <edge source="eess.SY" target="cs.AR" id="411" weight="0.06666666666666667" />
+      <edge source="eess.SY" target="cs.HC" id="412" weight="0.06666666666666667" />
+      <edge source="eess.SY" target="cs.LG" id="413" weight="0.8" />
+      <edge source="eess.SY" target="cs.MA" id="414" weight="0.06666666666666667" />
+      <edge source="eess.SY" target="cs.PF" id="415" weight="0.08333333333333333" />
+      <edge source="eess.SY" target="math.OC" id="416" weight="0.09090909090909091" />
+      <edge source="eess.SY" target="stat.ML" id="417" weight="0.2" />
+      <edge source="astro-ph.CO" target="astro-ph.HE" id="418" weight="0.5" />
+      <edge source="astro-ph.CO" target="astro-ph.IM" id="419" weight="1.0" />
+      <edge source="astro-ph.CO" target="cs.LG" id="420" weight="0.5" />
+      <edge source="math.PR" target="cs.LG" id="421" weight="0.5" />
+      <edge source="econ.TH" target="cs.GT" id="422" weight="0.5" />
+      <edge source="econ.TH" target="cs.HC" id="423" weight="0.5" />
+      <edge source="econ.TH" target="stat.TH" id="424" weight="0.5" />
+      <edge source="astro-ph.IM" target="astro-ph.HE" id="425" weight="0.6666666666666666" />
+      <edge source="astro-ph.IM" target="cs.LG" id="426" weight="0.14285714285714285" />
+      <edge source="astro-ph.IM" target="gr-qc" id="427" weight="1.0" />
+      <edge source="cs.DM" target="cs.LG" id="428" weight="1.0" />
+      <edge source="cs.MA" target="cs.CE" id="429" weight="0.07142857142857142" />
+      <edge source="cs.MA" target="cs.HC" id="430" weight="0.13043478260869565" />
+      <edge source="cs.MA" target="cs.LG" id="431" weight="0.5652173913043478" />
+      <edge source="cs.MA" target="cs.NE" id="432" weight="0.043478260869565216" />
+      <edge source="cs.MA" target="math.OC" id="433" weight="0.09090909090909091" />
+      <edge source="cs.MA" target="nlin.AO" id="434" weight="0.6666666666666666" />
+      <edge source="cs.MA" target="q-bio.GN" id="435" weight="0.09090909090909091" />
+      <edge source="cs.MA" target="q-fin.EC" id="436" weight="0.09090909090909091" />
+      <edge source="cs.MA" target="stat.ML" id="437" weight="0.08695652173913043" />
+      <edge source="q-bio.GN" target="cs.LG" id="438" weight="0.45454545454545453" />
+      <edge source="q-bio.GN" target="q-bio.QM" id="439" weight="0.09090909090909091" />
+      <edge source="quant-ph" target="cond-mat.dis-nn" id="440" weight="0.16666666666666666" />
+      <edge source="quant-ph" target="cs.HC" id="441" weight="0.09090909090909091" />
+      <edge source="quant-ph" target="cs.LG" id="442" weight="0.36363636363636365" />
+      <edge source="quant-ph" target="stat.ML" id="443" weight="0.09090909090909091" />
+      <edge source="math.AT" target="cs.LG" id="444" weight="1.0" />
+      <edge source="math.DS" target="cs.LG" id="445" weight="1.0" />
+      <edge source="math.DS" target="math.CA" id="446" weight="1.0" />
+      <edge source="math.DS" target="q-fin.MF" id="447" weight="1.0" />
+      <edge source="cond-mat.other" target="cond-mat.dis-nn" id="448" weight="1.0" />
+      <edge source="cond-mat.other" target="cond-mat.mes-hall" id="449" weight="1.0" />
+      <edge source="cond-mat.other" target="cond-mat.mtrl-sci" id="450" weight="1.0" />
+      <edge source="cs.FL" target="cs.LG" id="451" weight="0.3333333333333333" />
+      <edge source="cs.AR" target="cs.ET" id="452" weight="0.3333333333333333" />
+      <edge source="cs.AR" target="cs.LG" id="453" weight="0.5333333333333333" />
+      <edge source="cs.AR" target="cs.NE" id="454" weight="0.06666666666666667" />
+      <edge source="cs.AR" target="cs.PF" id="455" weight="0.16666666666666666" />
+      <edge source="cs.AR" target="stat.ML" id="456" weight="0.06666666666666667" />
+      <edge source="cs.GR" target="cs.HC" id="457" weight="0.2222222222222222" />
+      <edge source="cs.GR" target="cs.MM" id="458" weight="0.2222222222222222" />
+      <edge source="cond-mat.str-el" target="cond-mat.dis-nn" id="459" weight="1.0" />
+      <edge source="cs.CE" target="cs.LG" id="460" weight="0.35714285714285715" />
+      <edge source="cs.CE" target="physics.ed-ph" id="461" weight="0.07692307692307693" />
+      <edge source="cs.CE" target="q-bio.BM" id="462" weight="0.08333333333333333" />
+      <edge source="cs.CE" target="q-bio.QM" id="463" weight="0.07142857142857142" />
+      <edge source="cs.CE" target="q-fin.EC" id="464" weight="0.14285714285714285" />
+      <edge source="q-fin.PR" target="q-fin.GN" id="465" weight="0.5" />
+      <edge source="q-bio.BM" target="cs.LG" id="466" weight="0.8333333333333334" />
+      <edge source="q-bio.BM" target="cs.NE" id="467" weight="0.08333333333333333" />
+      <edge source="q-bio.BM" target="q-bio.QM" id="468" weight="0.08333333333333333" />
+      <edge source="cond-mat.mtrl-sci" target="cond-mat.dis-nn" id="469" weight="0.3333333333333333" />
+      <edge source="cond-mat.mtrl-sci" target="cond-mat.mes-hall" id="470" weight="1.0" />
+      <edge source="cond-mat.mtrl-sci" target="cond-mat.soft" id="471" weight="0.5" />
+      <edge source="cond-mat.mtrl-sci" target="cs.LG" id="472" weight="0.45454545454545453" />
+      <edge source="cond-mat.mtrl-sci" target="nlin.AO" id="473" weight="0.3333333333333333" />
+      <edge source="cond-mat.mtrl-sci" target="physics.app-ph" id="474" weight="0.3333333333333333" />
+      <edge source="q-fin.GN" target="cs.LG" id="475" weight="0.375" />
+      <edge source="q-fin.GN" target="q-fin.EC" id="476" weight="0.25" />
+      <edge source="cs.DS" target="cs.CC" id="477" weight="1.0" />
+      <edge source="cs.DS" target="cs.LG" id="478" weight="0.6666666666666666" />
+      <edge source="cs.DS" target="stat.ML" id="479" weight="0.3333333333333333" />
+      <edge source="stat.ML" target="cs.CC" id="480" weight="0.3333333333333333" />
+      <edge source="stat.ML" target="cs.HC" id="481" weight="0.010101010101010102" />
+      <edge source="stat.ML" target="cs.LG" id="482" weight="0.9393939393939394" />
+      <edge source="stat.ML" target="cs.LO" id="483" weight="0.05" />
+      <edge source="stat.ML" target="cs.NE" id="484" weight="0.06382978723404255" />
+      <edge source="stat.ML" target="cs.PF" id="485" weight="0.08333333333333333" />
+      <edge source="stat.ML" target="math.OC" id="486" weight="0.36363636363636365" />
+      <edge source="cs.DB" target="cs.HC" id="487" weight="0.058823529411764705" />
+      <edge source="cs.DB" target="cs.LG" id="488" weight="0.3137254901960784" />
+      <edge source="cs.DB" target="cs.LO" id="489" weight="0.05" />
+      <edge source="cs.DB" target="q-bio.QM" id="490" weight="0.07142857142857142" />
+      <edge source="cs.NA" target="cs.LG" id="491" weight="0.75" />
+      <edge source="cs.NA" target="cs.NE" id="492" weight="0.25" />
+      <edge source="cs.LG" target="astro-ph.HE" id="493" weight="0.3333333333333333" />
+      <edge source="cs.LG" target="cond-mat.dis-nn" id="494" weight="0.5" />
+      <edge source="cs.LG" target="cond-mat.soft" id="495" weight="0.5" />
+      <edge source="cs.LG" target="cs.CC" id="496" weight="0.3333333333333333" />
+      <edge source="cs.LG" target="cs.ET" id="497" weight="0.3333333333333333" />
+      <edge source="cs.LG" target="cs.GT" id="498" weight="0.3333333333333333" />
+      <edge source="cs.LG" target="cs.HC" id="499" weight="0.16887417218543047" />
+      <edge source="cs.LG" target="cs.LO" id="500" weight="0.5" />
+      <edge source="cs.LG" target="cs.MM" id="501" weight="0.4" />
+      <edge source="cs.LG" target="cs.NE" id="502" weight="0.6808510638297872" />
+      <edge source="cs.LG" target="cs.PF" id="503" weight="0.8333333333333334" />
+      <edge source="cs.LG" target="cs.SC" id="504" weight="0.5555555555555556" />
+      <edge source="cs.LG" target="math.CA" id="505" weight="1.0" />
+      <edge source="cs.LG" target="math.OC" id="506" weight="1.0" />
+      <edge source="cs.LG" target="nlin.AO" id="507" weight="0.6666666666666666" />
+      <edge source="cs.LG" target="physics.app-ph" id="508" weight="0.3333333333333333" />
+      <edge source="cs.LG" target="q-bio.QM" id="509" weight="0.7857142857142857" />
+      <edge source="cs.LG" target="q-fin.EC" id="510" weight="0.045454545454545456" />
+      <edge source="cs.LG" target="q-fin.MF" id="511" weight="1.0" />
+      <edge source="cs.LG" target="stat.AP" id="512" weight="0.2857142857142857" />
+      <edge source="cs.LG" target="stat.TH" id="513" weight="0.5" />
+      <edge source="physics.app-ph" target="cs.ET" id="514" weight="0.3333333333333333" />
+      <edge source="cs.HC" target="cs.ET" id="515" weight="0.3333333333333333" />
+      <edge source="cs.HC" target="cs.GT" id="516" weight="0.3333333333333333" />
+      <edge source="cs.HC" target="cs.MM" id="517" weight="0.2" />
+      <edge source="cs.HC" target="cs.NE" id="518" weight="0.0425531914893617" />
+      <edge source="cs.HC" target="math.OC" id="519" weight="0.09090909090909091" />
+      <edge source="cs.HC" target="q-fin.EC" id="520" weight="0.09090909090909091" />
+      <edge source="cond-mat.dis-nn" target="cond-mat.mes-hall" id="521" weight="1.0" />
+      <edge source="cond-mat.dis-nn" target="cond-mat.soft" id="522" weight="0.5" />
+      <edge source="cond-mat.dis-nn" target="cs.NE" id="523" weight="0.16666666666666666" />
+      <edge source="cond-mat.dis-nn" target="nlin.AO" id="524" weight="0.3333333333333333" />
+      <edge source="cs.SC" target="cs.LO" id="525" weight="0.1111111111111111" />
+      <edge source="cs.SC" target="cs.NE" id="526" weight="0.1111111111111111" />
+      <edge source="gr-qc" target="astro-ph.HE" id="527" weight="1.0" />
+      <edge source="nlin.AO" target="cond-mat.soft" id="528" weight="0.5" />
+      <edge source="nlin.AO" target="q-fin.EC" id="529" weight="0.3333333333333333" />
+      <edge source="cs.GT" target="q-fin.EC" id="530" weight="0.16666666666666666" />
+      <edge source="q-fin.MF" target="math.CA" id="531" weight="1.0" />
+      <edge source="cs.NE" target="cs.LO" id="532" weight="0.05" />
+      <edge source="cs.ET" target="cs.PF" id="533" weight="0.16666666666666666" />
+    </edges>
+  </graph>
+</gexf>

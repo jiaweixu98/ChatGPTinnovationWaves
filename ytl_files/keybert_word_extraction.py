@@ -41,4 +41,3 @@ df['keywords'] = df['combined'].apply(lambda text: extract_keywords_keybert(text
 
 # Optionally: Save the results to a new CSV file
 df.to_csv('C:/Users/ytl/Desktop/llm/keybert_keywords2.csv', index=False)
-#请使用fuzzy库对每一篇文章的关键词组进行语义相似度计算，将相似度大于90%的关键词组对，删去排名靠后的关键词组
